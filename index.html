@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="game-from" action="#" method="POST">
+        <h1 class="game-title">Uzbek sum exchange rate</h1>
+        <input class="afterPriceInp js-afterPriceInp" type="number"
+        placeholder="Enter your price" aria-label="Enter your price">
+        <select class="selectPrice js-selectPrice" name="typePrice">
+            <option   value="dollar" selected>dollar</option>
+            <option  value="rubl">rubl</option>
+            <option value="dirxam">dirxam</option>
+        </select>
+        <input class="beforePriceInp js-beforePriceInp" type="number"
+        placeholder="price" aria-label="Enter your price">
+        <button class="btnPrice js-btnPrice" type="submit">Check Price</button>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
